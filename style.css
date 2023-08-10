@@ -58,13 +58,50 @@ main {
   height: 200px;
   overflow: hidden;
   position: relative;
+  background-color: rgb(211, 211, 211);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
-.imgWrapper img {
+.imgWrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  animation: pulse 2.5s infinite linear;
+}
+
+.imgWrapper.loaded::before {
+  display: none;
+  animation: none;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.imgWrapper > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: 1s;
+  opacity: 0;
+}
+
+.imgWrapper.loaded > img {
+  opacity: 1;
 }
 
 .imgWrapper .layer {

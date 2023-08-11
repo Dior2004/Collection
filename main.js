@@ -51,6 +51,13 @@ let array = [
     p: "HTML and CSS project clone",
   },
   {
+    url: "https://vercel-design-clone.netlify.app/",
+    imgUrl: "/img/vercel.jpg",
+    imgSmallUrl: "/imgSmall/vercel.jpg",
+    h3: "Vercel Settings",
+    p: "Vercel only design clone HTML & CSS",
+  },
+  {
     url: "https://business-startup-dev1.netlify.app/",
     imgUrl: "/img/business.jpg",
     imgSmallUrl: "/imgSmall/business.jpg",

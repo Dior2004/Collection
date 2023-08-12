@@ -51,7 +51,7 @@ let array = [
     p: "HTML and CSS project clone",
   },
   {
-    url: "https://vercel-design-clone.netlify.app/",
+    url: "https://hosting-platform-design-clone.netlify.app/",
     imgUrl: "/img/vercel.jpg",
     imgSmallUrl: "/imgSmall/vercel.jpg",
     h3: "Vercel Settings",
@@ -70,6 +70,13 @@ let array = [
     imgSmallUrl: "/imgSmall/resource.jpg",
     h3: "Resource",
     p: "HTML and SCSS project from figma",
+  },
+  {
+    url: "https://digital-watch-dev1.netlify.app/",
+    imgUrl: "/img/clock.jpg",
+    imgSmallUrl: "/imgSmall/clock.jpg",
+    h3: "Digital Watch",
+    p: "Simple HTML, CSS and JavaScript project",
   },
   {
     url: "https://triangle-animation.netlify.app/",

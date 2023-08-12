@@ -65,18 +65,25 @@ let array = [
     p: "HTML and SCSS project from figma",
   },
   {
-    url: "https://resource-dev1.netlify.app/",
-    imgUrl: "/img/resource.jpg",
-    imgSmallUrl: "/imgSmall/resource.jpg",
-    h3: "Resource",
-    p: "HTML and SCSS project from figma",
-  },
-  {
     url: "https://digital-watch-dev1.netlify.app/",
     imgUrl: "/img/clock.jpg",
     imgSmallUrl: "/imgSmall/clock.jpg",
     h3: "Digital Watch",
     p: "Simple HTML, CSS and JavaScript project",
+  },
+  {
+    url: "https://todo-list-dev1.netlify.app/",
+    imgUrl: "/img/todo.jpg",
+    imgSmallUrl: "/imgSmall/todo.jpg",
+    h3: "To Do List App",
+    p: "Simple HTML, CSS and JavaScript project",
+  },
+  {
+    url: "https://resource-dev1.netlify.app/",
+    imgUrl: "/img/resource.jpg",
+    imgSmallUrl: "/imgSmall/resource.jpg",
+    h3: "Resource",
+    p: "HTML and SCSS project from figma",
   },
   {
     url: "https://triangle-animation.netlify.app/",
